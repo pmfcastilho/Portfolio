@@ -9,7 +9,7 @@ export const DATA = {
   location: "Chennai, India",
   locationLink: "https://www.google.com/maps/place/Chennai",
   description:
-    "A Penultimate year, Electronics Enginerring Student. I love building things and helping people. Very active on Linkedin.",
+    "A Penultimate year, Electronics Engineering Student. I love building things and helping people. Very active on Linkedin.",
   summary:
     "Currently, I am pursuing a degree in Electronics and Communication at VIT Chennai, expected to graduate in 2026. In the past, [I have participated in over 10+ hackathons for fun](/#hackathons), [interned at Tech Giant SHARP](#experience), and [contributed to more than 25+ projects](#projects).",
   avatarUrl: "/me.png",
