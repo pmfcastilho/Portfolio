@@ -299,7 +299,7 @@ export const DATA = {
       dates: "September 14th - 16th, 2018",
       location: "Chennai, India",
       description:
-        "Developed a **blockchain-based supply chain management system** with **crowdfunding integration**, designed to aid NGOs and support humanitarian efforts. It ensures **transparency** and **security** in both **logistics** and **fundraising**",
+        "Developed a blockchain-based supply chain management system with crowdfunding integration, designed to aid NGOs and support humanitarian efforts. It ensures transparency and security in both logistics and fundraising.",
       image:
         "/defy24.png",
       //mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
