@@ -277,7 +277,7 @@ export const DATA = {
       dates: "October 12th - 14th, 2024",
       location: "Pune, India",
       description:
-        "a RESTful API + Chainlit RAG chatbot using ChromaDB for storage, Google Generative AI for responses, and Hugging Face for embeddings.",
+        "Developed a RESTful API + Chainlit RAG chatbot using ChromaDB for storage, Google Generative AI for responses, and Hugging Face for embeddings.",
       image:
         "/bajaj.png",
       /*mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",*/
