@@ -11,7 +11,7 @@ export const DATA = {
   description:
     "A Penultimate year, Electronics Engineering Student. I love building things and helping people. Very active on Linkedin.",
   summary:
-    "Currently, I am pursuing a degree in Electronics and Communication at VIT Chennai, expected to graduate in 2026. In the past, [I have participated in over 5+ hackathons for fun](/#hackathons), [interned at Tech Giant SHARP](#experience), and [contributed to more than 25+ projects](#projects).",
+    "Currently, I am pursuing a degree in Electronics and Communication at VIT Chennai, expected to graduate in 2026. In the past, [I have participated in over 5+ hackathons](/#hackathons), [interned at Tech Giant SHARP](#experience), and [contributed to more than 25+ projects](#projects).",
   avatarUrl: "/me.png",
   skills: [
     "Python",
