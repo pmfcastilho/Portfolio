@@ -181,6 +181,7 @@ export const DATA = {
       title: "RX-Asisstant ",
       href: "https://github.com/msnabiel/RX-Asisstant--HackRX5.0",
       dates: "October 12th - 14th 2024",
+      tags: ["SaaS", "Hackathon", "AI"],
       active: true,
       description:
         "With the release of the ChromaDB, I built **RX-Assistant**, a **SaaS** that uses a RESTful API and Chainlit **RAG chatbot** to extract information from documents using OCR. It **supports actions** like order creation and features a **multilingual** conversational interface powered by **Flan-T5** and **Gemini**.",
@@ -205,6 +206,7 @@ export const DATA = {
       title: "iVision",
       href: "https://github.com/msnabiel/iVision",
       dates: "July 2024",
+      tags: ["SaaS", "Hackathon", "AI"],
       active: true,
       description:
         "Developed an **iOS app** that integrates **image classification** using **CoreML and Google Generative AI (Gemini)** for generating responses based on user queries and images.",
@@ -228,6 +230,7 @@ export const DATA = {
       title: "AgroWise",
       href: "https://github.com/msnabiel/AgroWise--Smart-Irrigation",
       dates: "September 2024 - Present",
+      tags: ["SaaS", "Project", "MPMC"],
       active: true,
       description:
         "Developed an **intelligent irrigation system** using an **8051 microcontroller** to automate **water management** based on **real-time soil moisture levels**.",
@@ -251,6 +254,7 @@ export const DATA = {
       title: "Haven#Hex",
       href: "https://github.com/msnabiel/Haven-Hex--Defy24",
       dates: "March 2024 - March 2024",
+      tags: ["SaaS", "Hackathon", "AI"],
       active: true,
       description:
         "Developed a **blockchain-based supply chain management system** with **crowdfunding integration**, designed to aid NGOs and support humanitarian efforts. It ensures **transparency** and **security** in both **logistics** and **fundraising**.",
