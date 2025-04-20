@@ -19,18 +19,35 @@ export default function Page() {
   const [showLoader, setShowLoader] = useState(true);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setProgress((prev) => {
-        if (prev >= 100) {
-          clearInterval(interval);
-          setTimeout(() => setShowLoader(false), 300); // Optional fade duration
-          return 100;
+  let lastBuzzed = 0;
+
+  const interval = setInterval(() => {
+    setProgress((prev) => {
+      const next = prev + 1;
+
+      if (next % 20 === 0 && next !== lastBuzzed && "vibrate" in navigator) {
+        navigator.vibrate(10); // subtle tick
+        lastBuzzed = next;
+      }
+
+      if (next >= 100) {
+        clearInterval(interval);
+        setTimeout(() => setShowLoader(false), 300);
+
+        // Final celebratory haptic
+        if ("vibrate" in navigator) {
+          navigator.vibrate([20, 30, 40, 30, 20]); // fancy burst
         }
-        return prev + 1;
-      });
-    }, 18); // Speed of loading
-    return () => clearInterval(interval);
-  }, []);
+
+        return 100;
+      }
+
+      return next;
+    });
+  }, 18); // Loading speed
+
+  return () => clearInterval(interval);
+}, []);
   if (showLoader) {
     return (
       <div className="fixed inset-0 flex items-center justify-center bg-black text-white text-6xl font-mono tracking-widest z-50 transition-opacity duration-500">
